@@ -43,3 +43,34 @@ result5 = 5 + 2 ** 3 * (4 - 1)
 print("Result 5:", result5)
 
 # general math note: multiplication, division, addition, and subtraction work left to right in PEMDAS
+
+# CHALLENGES
+
+#  Challenge 1: Rectangle Area
+# Calculate the area of a rectangle with a width of 8 and a height of 5.
+
+print("A =", 8 * 5)
+
+# Challenge 2: Circle Area
+# Use the formula (pi)r^2 to calculate the area of a circle with radius of 7.
+# (Use 3.14 for pi.)
+
+print("A =", 3.14 * 7 ** 2)
+
+# Challenge 3: Shopping Total
+# A book costs $12.99 and a notebook costs $3.50.
+# Calculate the total cost for 3 books and 4 notebooks.
+
+book = 12.99
+notebook = 3.50
+
+print("Cost =", book * 3 + notebook * 4)
+
+# Challenge 4: Even or Odd
+# Create a variable that holds any integer.
+# Use the modulus operator to check if the number is even or odd.
+# Explain your reasoning.
+
+value = 14
+print(value % 2 == 0)
+# Set a value to the variable, the next line checks if that number is divisible by two, and therefore checks if it is even.
