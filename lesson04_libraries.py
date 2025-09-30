@@ -45,7 +45,7 @@ print(seed4)
 import random
 luckynum = 67
 
-lucky = random.randint(1, 1000000) # makes a random number from 1 - 10
+lucky = random.randint(1, 1000000) # makes a random number from 1 - 1000000
 
 print(lucky)
 
