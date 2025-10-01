@@ -1,8 +1,6 @@
 import random
-loaded = 5
-
-
-blank = random.randint(1, 6) # makes a random number from 1 - 1000000 
+loaded = (1)
+blank = random.randint(1, 6)
 print(blank)
 if(blank != loaded):
     print("You're safe... for now.")
