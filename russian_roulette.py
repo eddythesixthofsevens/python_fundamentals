@@ -6,5 +6,3 @@ if(blank != loaded):
     print("You're safe... for now.")
 else:
     print("You fired the live round. You're dead.")
-
-loaded = ["1", "2", "3", "4", "5", "6"]
