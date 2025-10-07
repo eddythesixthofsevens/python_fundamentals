@@ -35,3 +35,8 @@
 country = "egypt"
 length_of_word = len(country)
 print(length_of_word)
+
+sponge = "SpOnGEbOB"
+print("\nUppercase: ", sponge.upper())
+print("\nLowercase: ", sponge.lower())
+print("\nCapitalized: ", sponge.capitalize())
