@@ -102,7 +102,7 @@
 # Uppercase: PYTHON
 # Lowercase: python
 
-# word = input("Enter a word: ")
-# print("Backwards: ", word[::-1])
-# print("Uppercase: ", word.upper())
-# print("Lowercase: ", word.lower())
+word = input("Enter a word: ")
+print("Backwards: ", word[::-1])
+print("Uppercase: ", word.upper())
+print("Lowercase: ", word.lower())
