@@ -24,8 +24,56 @@
     
 # print("Now I've given all the animals adequate physical affection!")
 
-for i in range(6):
-    print("counting:", i)
+# for i in range(6):
+#     print("counting:", i)
 
-for num in range(2, 11, 2):
-    print("count by two: ", num)
+# # range(start, stop, step)
+# for num in range(2, 11, 2):
+#     print("count by two: ", num)
+
+# print(range(10))
+
+# print("--- Iterating over strings ---\n")
+
+# fav_word = "fisch"
+# letter_list = []
+# for letter in fav_word:
+#     print(letter, end="")
+#     letter_list.append(letter)
+#     print(letter_list)
+#     print()
+
+# ---------------------------------------------------------
+# WHILE LOOPS
+# ---------------------------------------------------------
+# WORK WITH CONDITIONALS, BASED ON TRUE/FALSE (BOOLEAN)
+
+# A while-loop repeats *while* a condition is true.
+# If you forget to change the condition, it loops forever.
+# And then your program becomes immortal. Avoid that.
+
+# += to add to a variable, -= to subtract to a variable, = to overright 
+import time
+count = 0
+# while count < 6:
+#     print(f"Loopin'. We are on loop #{count}.")
+#     count += 1
+#     time.sleep(0.5)
+
+# print("We have escaped the loop!")
+
+
+# user_input = ""
+# input("Type 'exit' to escape:")
+# while user_input != "exit":
+#    user_input = input("Type 'exit' to escape:")
+
+# count = 60
+# increment = 1
+
+# while count > 0:
+#     count -= increment
+#     increment += 1
+#     if count < 0:
+#         break
+#     print(count)
