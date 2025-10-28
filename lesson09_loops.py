@@ -77,3 +77,12 @@ count = 0
 #     if count < 0:
 #         break
 #     print(count)
+
+# Challenge 1: For Loop, Random Fruit Basket
+# Create a list of fruit and make an algorithm to put fruits in a basket
+import random
+fruit_number = (int(input("How many fruits do you want in the basket? Enter here: ")) + 1)
+fruits = ["apple", "mango", "watermelon", "banana", "cherry", "tomato", "orange", "grapefruit", "blackberry", "raspberry"]
+
+for fruit in range(1, fruit_number):
+    print("You picked: ", random.choice(fruits))
