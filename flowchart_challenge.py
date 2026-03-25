@@ -8,3 +8,4 @@ print(only_ints("a", 4))
 false_test = only_ints("3", 3)
 true_test = only_ints(3, 3)
 print(f"True case (3, 3): {true_test}\nFalse case ('3', 3): {false_test}")
+
