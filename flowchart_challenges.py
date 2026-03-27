@@ -18,14 +18,26 @@
 #         return max
 # print(clamp(5, 5, 10))
 
-list = [1, 1, 1]
-def all_equal(list):
-    firstnum = list[0]
-    for i in list:
-        if i != firstnum:
-            return False
+# list = [1, 1, 1]
+# def all_equal(list):
+#     firstnum = list[0]
+#     for i in list:
+#         if i != firstnum:
+#             return False
         
             
-        firstnum == i
-    return True
-print(all_equal(list))
+#         firstnum == i
+#     return True
+# print(all_equal(list))
+
+num = 4
+if num > 2 and num < 7:
+    print(num)
+    
+elif num < 2:
+    num += 2
+elif num > 2 and num < 7:
+    num += 1
+elif num > 7:
+    print(num)
+
