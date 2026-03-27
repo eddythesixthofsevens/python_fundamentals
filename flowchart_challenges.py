@@ -18,16 +18,14 @@
 #         return max
 # print(clamp(5, 5, 10))
 
+list = [1, 1, 1]
 def all_equal(list):
-    num = list[0]
-    print(num)
-    for i in range(0, len(list)):
-        if i == num:
-            print("Yes")
-            continue
-        else:
+    firstnum = list[0]
+    for i in list:
+        if i != firstnum:
             return False
+        
+            
+        firstnum == i
     return True
-
-nums = [1, 1, 1, 1, 1]
-all_equal(nums)
+print(all_equal(list))
